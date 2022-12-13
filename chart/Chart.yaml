@@ -1,0 +1,8 @@
+apiVersion: v2
+name: spark-k8s
+version: 0.1.0
+
+dependencies:
+  - name: spark-operator
+    version: 1.1.26
+    repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
