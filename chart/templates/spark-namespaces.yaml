@@ -5,10 +5,3 @@ metadata:
   name: spark-jobs
   labels:
     name: spark-jobs
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: spark-infra
-  labels:
-    name: spark-infra
